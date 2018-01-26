@@ -143,7 +143,7 @@ skin author: Matrix10
 </windowstyle>
  <screen name="InfoBar" position="0,0" size="1920,1080" title="InfoBar" backgroundColor="transparent2" flags="wfNoBorder">
     <ePixmap position="0,0" zPosition="-1" size="1927,1080" pixmap="BlackShadowSE_P/infobar.png" alphatest="blend" />
-    <ePixmap position="1712,920" zPosition="1" size="120,120" pixmap="BlackShadowSE_P/menu/ck.png" alphatest="blend" />
+    <ePixmap position="1712,920" zPosition="1" size="120,120" pixmap="BlackShadowSE_P/menu/ck2.png" alphatest="blend" />
     <widget source="session.CurrentService" render="Label" position="178,854" size="133,50" font="Regular;30" foregroundColor="white" backgroundColor="un1000366d" valign="center" halign="center" transparent="1">
       <convert type="ServiceName">Provider</convert>
     </widget>
@@ -513,7 +513,7 @@ skin author: Matrix10
     <widget source="session.MSNWeather" backgroundColor="dark" font="Regular; 28" render="Label" position="1558,545" size="100,45" zPosition="3" halign="center" transparent="1">
       <convert type="MSNWeather">temperature_high,day2</convert>
     </widget>
-    <widget source="session.MSNWeather" backgroundColor="un458a" font="Regular; 29" foregroundColor="button" render="Label" position="1478,591" size="191,40" zPosition="3" halign="center" transparent="0">
+    <widget source="session.MSNWeather" backgroundColor="info" font="Regular; 29" foregroundColor="button" render="Label" position="1478,591" size="191,40" zPosition="3" halign="center" transparent="0">
       <convert type="MSNWeather">weekday,day4</convert>
     </widget>
     <widget alphatest="blend" render="MSNWeatherPixmap" position="1673,435" size="188,99" source="session.MSNWeather" transparent="1" zPosition="5">
@@ -569,7 +569,7 @@ skin author: Matrix10
     <widget source="session.MSNWeather" backgroundColor="yellow" font="Regular; 29" foregroundColor="button" render="Label" position="1670,390" size="191,40" zPosition="3" halign="center" transparent="0">
       <convert type="MSNWeather">weekday,day3</convert>
     </widget>
-    <widget source="session.MSNWeather" backgroundColor="un80ff80" font="Regular; 29" foregroundColor="button" render="Label" position="1669,591" size="191,40" zPosition="3" halign="center" transparent="0">
+    <widget source="session.MSNWeather" backgroundColor="red" font="Regular; 29" foregroundColor="button" render="Label" position="1669,591" size="191,40" zPosition="3" halign="center" transparent="0">
       <convert type="MSNWeather">weekday,day5</convert>
     </widget>
     <widget source="session.CurrentService" render="ChannelNumber" position="56,853" size="115,50" font="Regular;36" foregroundColor="button" backgroundColor="bgmain" valign="center" halign="center" transparent="1" />
